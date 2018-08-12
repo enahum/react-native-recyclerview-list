@@ -21,7 +21,8 @@ public class RNRecyclerviewListPackage implements ReactPackage {
     public List<ViewManager> createViewManagers(ReactApplicationContext reactContext) {
         return Arrays.<ViewManager>asList(
                 new RecyclerViewBackedScrollViewManager(),
-                new RecyclerViewItemViewManager()
+                new RecyclerViewItemViewManager(),
+                new RecyclerRefreshLayoutManager()
         );
     }
 }

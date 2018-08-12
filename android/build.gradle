@@ -1,3 +1,4 @@
+apply plugin: 'com.android.library'
 
 buildscript {
     repositories {
@@ -8,8 +9,6 @@ buildscript {
         classpath 'com.android.tools.build:gradle:2.2.3'
     }
 }
-
-apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 23
@@ -31,7 +30,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.facebook.react:react-native:+'
-    compile 'com.android.support:recyclerview-v7:23.0.1'
+    implementation 'com.facebook.react:react-native:+'
+    implementation 'com.android.support:recyclerview-v7:23.0.1'
+    implementation 'com.github.orangegangsters:swipy:1.2.3@aar'
 }
-  
