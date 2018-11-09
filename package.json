@@ -1,39 +1,4 @@
 {
-  "_args": [
-    [
-      "react-native-recyclerview-list@0.3.4",
-      "/Users/enahum/Projects/go/src/github.com/mattermost/mattermost-mobile"
-    ]
-  ],
-  "_from": "react-native-recyclerview-list@0.3.4",
-  "_id": "react-native-recyclerview-list@0.3.4",
-  "_inBundle": false,
-  "_integrity": "sha512-WC822Nid9T8zHlqKsEUE+VvWKWwxQEJN9aiHP/G1qyUcIrNnYHoKYyfAYSmqc+rjA9eEsg1zHHSxHm5+L/Wd+A==",
-  "_location": "/react-native-recyclerview-list",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "react-native-recyclerview-list@0.3.4",
-    "name": "react-native-recyclerview-list",
-    "escapedName": "react-native-recyclerview-list",
-    "rawSpec": "0.3.4",
-    "saveSpec": null,
-    "fetchSpec": "0.3.4"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/react-native-recyclerview-list/-/react-native-recyclerview-list-0.3.4.tgz",
-  "_spec": "0.3.4",
-  "_where": "/Users/enahum/Projects/go/src/github.com/mattermost/mattermost-mobile",
-  "author": "",
-  "bugs": {
-    "url": "https://github.com/godness84/react-native-recyclerview-list/issues"
-  },
-  "dependencies": {
-    "prop-types": "^15.6.0"
-  },
   "description": "A RecyclerView implementation for React Native",
   "homepage": "https://github.com/godness84/react-native-recyclerview-list#readme",
   "keywords": [
@@ -45,8 +10,9 @@
   "main": "index.js",
   "name": "react-native-recyclerview-list",
   "peerDependencies": {
-    "react": "^16.0.0-alpha.12",
-    "react-native": "^0.48.3"
+    "prop-types": "*",
+    "react": "*",
+    "react-native": "*"
   },
   "repository": {
     "type": "git",
@@ -56,5 +22,7 @@
     "clean": "rm -rf node_modules/ example/node_modules/ yarn.lock example/yarn.lock package-lock.json example/package-lock.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.3.4"
+  "version": "0.3.4",
+  "dependencies": {
+  }
 }
